@@ -1,7 +1,7 @@
 {
-    "window.zoomLevel": 1,
-    "window.restoreFullscreen": true,
-    "window.newWindowDimensions": "fullscreen",
+    "window.zoomLevel": 1, // Linux-specific
+    "window.restoreFullscreen": true, // Linux-specific
+    "window.newWindowDimensions": "fullscreen", // Linux-specific
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
@@ -22,6 +22,17 @@
     "files.exclude": {
         ".directory": true
     },
+    "cSpell.language": "en",
+    "cSpell.userWords": [
+        "bson",
+        "Excretus",
+        "genderize",
+        "linebreak",
+        "miamoremustachio",
+        "oleg",
+        "plusplus",
+        "taskrefs"
+    ],
     "extensions.autoCheckUpdates": false,
     "extensions.autoUpdate": false,
     "terminal.integrated.sendKeybindingsToShell": true,
